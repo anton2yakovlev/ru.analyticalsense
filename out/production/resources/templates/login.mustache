@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+</html>
+<body class="stretched">
+    <div id="wrapper" class="clearfix">
+
+Login page
+<form action="/login" method="post">
+    <div><label> User Name : <input type="text" name="username"/> </label></div>
+    <div><label> Password: <input type="password" name="password"/> </label></div>
+    <input type="hidden" name="_csrf" value="{{_csrf.token}}" />
+    <div><input type="submit" value="Sign In"/></div>
+</form>
+
+<a>Add new user</a>
+{{#message}}
+    {{message}}
+{{/message}}
+
+<form action="/registration" method="post">
+    <div><label> User Name : <input type="text" name="username"/> </label></div>
+    <div><label> Password: <input type="password" name="password"/> </label></div>
+    <div><input type="submit" value="Sign In"/></div>
+</form>
+
+    </div>
+
+
+        <!-- External JavaScripts
+        ============================================= -->
+        <script type="text/javascript" src="/static/js/jquery.js"></script>
+        <script type="text/javascript" src="/static/js/plugins.js"></script>
+
+        <!-- Mustache -->
+        <script type="text/javascript" src="/static/js/mustache/mustache.min.js"></script>
+
+        <!-- For all pages required -->
+        <script type="text/javascript" src="/static/js/templates/head.js"></script>
+        <script type="text/javascript" src="/static/js/templates/body.js"></script>
+
+        <!-- Login page-->
+        <script type="text/javascript" src="/static/js/templates/login/login.js"></script>
+
+
+        <!-- Footer Scripts
+        ============================================= -->
+        <script type="text/javascript" src="/static/js/functions.js"></script>
+
+
+
+
+
+
+        <script type="text/javascript">
+
+            let title = "NEW TITLE";
+            let pageTitle = "Welcome to the Login page";
+
+
+            $(function () {
+
+                let csrfToken = $('input[name="_csrf"]').val();
+
+                generateHead(title);
+
+                generateBody();
+                generatePageTitle(pageTitle);
+                generateLoginPage(csrfToken);
+
+            });
+
+        </script>
+</body>
+</html>

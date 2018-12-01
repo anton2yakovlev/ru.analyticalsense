@@ -1,0 +1,18 @@
+
+#alert-box {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    z-index: 100;
+    width: 400px;
+}
+
+#alert-box .alert {
+    margin-bottom: 10px;
+}
+
+#alert-box a {
+    color: #8a6d3b;
+    font-weight: bold;
+    border-bottom: dashed 2px;
+}

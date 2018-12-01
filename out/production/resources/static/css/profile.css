@@ -1,0 +1,31 @@
+
+
+#query-filters {
+    margin-top: 200px;
+}
+
+#add-query-form-submit {
+    margin-top: 25px !important;
+}
+
+#list-queries .list-group-item {
+    background-color: #F5F5F5;
+}
+
+#list-queries .list-group-item .icon-play {
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    margin: 0;
+    color: #6B8E23;
+}
+
+#list-queries .list-group-item .icon-circle {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+#query-commands {
+    margin: 10px 0 20px 15px;
+}
