@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+</html>
+<head>
+    <style>
+   div {
+    border: 1px solid #50d; /* Белая рамка */
+    border-radius: 5px; /* Радиус скругления */
+    display: inline-block;
+    margin: 30;
+    padding: 2% ;
+   }
+  </style>
+</head>
+<body>
+
+<div>
+    New factor: <br>
+    <form method="post">
+        <input type="text" name="factorName" placeholder="Factor name" />
+        <input type="text" name="factorQuery" placeholder="Factor query"/>
+        <button type="submit">Add</button>
+    </form>
+
+</div>
+<br>
+<br>
+<div>
+{{#factors}}
+    <div>
+        <b>{{factorName}}</b><br>
+        <b>{{factorQuery}}</b><br>
+    </div>
+    {{/factors}}
+
+</div>
+
+</body>
+</html>

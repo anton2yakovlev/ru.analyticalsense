@@ -36,3 +36,28 @@ function generatePageTitle(title, afterSelector = '#header') {
         )
     })
 }
+
+
+/*
+* FUNCTIONS
+* =============================================
+*/
+
+const badRequest = (status, text) =>
+    `<strong>Bad request!</strong><br>
+     Our specialists are already working on the problem<br>
+     <b>Status code:</b> ${status} <br>
+     <b>Text status:</b> ${text}`;
+
+const alertStatusBad = "danger";
+const alertIconBad = "icon-remove-sign";
+
+
+function showAlertBox(status, icon, message) {
+    $('#alert-box').html(
+        `<div class="alert alert-${status}">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+            <i class="${icon}"></i>${message}
+        </div>`);
+}
+

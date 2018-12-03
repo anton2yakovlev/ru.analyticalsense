@@ -9,20 +9,9 @@ Login page
 <form action="/login" method="post">
     <div><label> User Name : <input type="text" name="username"/> </label></div>
     <div><label> Password: <input type="password" name="password"/> </label></div>
-    <input type="hidden" name="_csrf" value="{{_csrf.token}}" />
     <div><input type="submit" value="Sign In"/></div>
 </form>
 
-<a>Add new user</a>
-{{#message}}
-    {{message}}
-{{/message}}
-
-<form action="/registration" method="post">
-    <div><label> User Name : <input type="text" name="username"/> </label></div>
-    <div><label> Password: <input type="password" name="password"/> </label></div>
-    <div><input type="submit" value="Sign In"/></div>
-</form>
 
     </div>
 
@@ -60,13 +49,11 @@ Login page
 
             $(function () {
 
-                let csrfToken = $('input[name="_csrf"]').val();
-
                 generateHead(title);
 
                 generateBody();
                 generatePageTitle(pageTitle);
-                generateLoginPage(csrfToken);
+                generateLoginPage();
 
             });
 

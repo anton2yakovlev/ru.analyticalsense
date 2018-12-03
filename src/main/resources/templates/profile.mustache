@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+</html>
+<body class="stretched">
+
+    <div id="wrapper" class="clearfix">
+
+    </div>
+
+
+    <!-- External JavaScripts
+    ============================================= -->
+    <script type="text/javascript" src="/static/js/jquery.js"></script>
+    <script type="text/javascript" src="/static/js/plugins.js"></script>
+
+    <!-- Mustache -->
+    <script type="text/javascript" src="/static/js/mustache/mustache.min.js"></script>
+
+    <!-- For all pages required -->
+    <script type="text/javascript" src="/static/js/templates/head.js"></script>
+    <script type="text/javascript" src="/static/js/templates/body.js"></script>
+
+    <!-- Login page-->
+    <script type="text/javascript" src="/static/js/templates/profile/profile.js"></script>
+
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <script type="text/javascript" src="/static/js/functions.js"></script>
+
+
+    <script type="text/javascript">
+
+        let title = "Profile";
+        let pageTitle = "Welcome to the Profile page";
+
+
+        $(function () {
+
+            generateHead(title);
+
+            generateBody();
+            generatePageTitle(pageTitle);
+            generateProfilePage();
+        });
+
+    </script>
+</body>
+</html>

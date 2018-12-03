@@ -24,8 +24,6 @@
             <input type="password" id="login-form-password" name="password" class="form-control" />
         </div>
 
-        <input type="hidden" name="_csrf" value="{{csrfToken}}" />
-
         <div class="col_full nobottommargin">
             <button class="button button-3d nomargin" type="submit"
                     value="Sign In">Login</button>
@@ -53,8 +51,8 @@
 
 
         <div class="col_half col_last">
-            <label for="register-form-name">Email Address:</label>
-            <input type="email" id="register-form-name" name="username" class="form-control" />
+            <label for="register-form-name">Username:</label>
+            <input type="text" id="register-form-name" name="username" class="form-control" />
         </div>
 
         <div class="clear"></div>
@@ -65,8 +63,6 @@
         </div>
 
         <div class="clear"></div>
-
-        <input type="hidden" name="_csrf" value="{{csrfToken}}" />
 
         <div class="col_half nobottommargin">
             <button class="button button-3d button-black nomargin" id="register-form-submit" name="register-form-submit" value="register">Register Now</button>
