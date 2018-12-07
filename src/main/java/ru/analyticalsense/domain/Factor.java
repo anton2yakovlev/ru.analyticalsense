@@ -23,6 +23,9 @@ public class Factor {
         setFactorQuery(factorQuery);
     }
 
+    public Factor() {
+    }
+
     public Long getId() {
         return id;
     }

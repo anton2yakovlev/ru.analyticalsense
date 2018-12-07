@@ -26,8 +26,8 @@ public class FactorController  {
 
     @GetMapping("/factor")
     public String main(Map<String, Object> model) {
-        Iterable<Factor> factors = factorRepo.findAll();
-        model.put("factors", factors);
+        //Iterable<Factor> factors = factorRepo.findAll();
+        //model.put("factors", factors);
 
         return "factor";
     }

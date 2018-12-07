@@ -1,71 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ef5289d-e370-4490-9c9d-3f2c9dea721d" name="Default Changelist" comment="master">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/FactorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/ProfileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/domain/Factor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/domain/FactorGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/domain/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/repos/FactorRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/rest/RestAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/templates/profile/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/mustache/profile/profile-content.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/factor.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3ef5289d-e370-4490-9c9d-3f2c9dea721d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/analyticalsense/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ru/analyticalsense/config/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/analyticalsense/controller/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/analyticalsense/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ru/analyticalsense/controller/RegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/analyticalsense/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ru/analyticalsense/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/static/css/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/css/dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/static/css/index-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/css/index-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/static/css/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/css/profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/static/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/js/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/static/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/static/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/js/plugins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/static/js/templates/body.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/js/templates/body.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/static/js/templates/head.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/js/templates/head.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/static/js/templates/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/js/templates/login/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/static/mustache/body.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/mustache/body.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/static/mustache/head.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/mustache/head.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/static/mustache/login/forms.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/mustache/login/forms.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/static/mustache/page-title.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/mustache/page-title.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/login.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/login.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/domain/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/repos/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/repos/UserRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/index-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/index-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/templates/body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/templates/body.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/templates/head.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/templates/head.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/templates/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/templates/login/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mustache/body.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/mustache/body.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mustache/head.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/mustache/head.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mustache/login/forms.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/mustache/login/forms.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mustache/page-title.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/mustache/page-title.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/FactorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/FactorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/domain/Factor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/domain/Factor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/repos/FactorRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/analyticalsense/repos/FactorRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/factor.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/factor.mustache" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -135,16 +77,18 @@
     <session id="-245329513">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="2" />
-          <entry key="java" value="28" />
-          <entry key="js" value="8" />
-          <entry key="mustache" value="25" />
+          <entry key="java" value="35" />
+          <entry key="js" value="9" />
+          <entry key="mustache" value="27" />
           <entry key="properties" value="2" />
           <entry key="txt" value="2" />
         </counts>
@@ -152,26 +96,26 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="HTML" value="24" />
-          <entry key="JAVA" value="28" />
-          <entry key="JavaScript" value="8" />
+          <entry key="HTML" value="26" />
+          <entry key="JAVA" value="35" />
+          <entry key="JavaScript" value="9" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="408" />
-          <entry key="mustache" value="260" />
+          <entry key="java" value="457" />
+          <entry key="mustache" value="318" />
           <entry key="properties" value="1" />
-          <entry key="txt" value="9" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="260" />
-          <entry key="JAVA" value="408" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="HTML" value="318" />
+          <entry key="JAVA" value="457" />
+          <entry key="PLAIN_TEXT" value="21" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
@@ -183,22 +127,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/RegistrationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/FactorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="257">
+              <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,15 +139,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/todo.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/ProfileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="120">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/RegistrationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/repos/FactorRepo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -228,28 +169,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/repos/UserRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todo.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/factor.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/mustache/body.mustache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-58">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/mustache/head.mustache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="344">
+              <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -257,11 +210,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/domain/Factor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="358">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1127#1128#0" expanded="true" />
+                <element signature="e#1173#1174#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/mustache/profile/profile-content.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -757,11 +731,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/ru/analyticalsense/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/ProfileController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/factor.mustache" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/analyticalsense/rest/RestAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/analyticalsense/repos/FactorRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/FactorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/analyticalsense/domain/Factor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/analyticalsense/repos/FactorRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/analyticalsense/rest/RestAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/factor.mustache" />
       </list>
     </option>
   </component>
@@ -777,9 +751,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="16" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="958" />
+    <option name="height" value="956" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -789,7 +764,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -923,6 +897,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -933,7 +908,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543823563126" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544190076054" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1015,13 +990,21 @@
       <workItem from="1543513887246" duration="9209000" />
       <workItem from="1543592014413" duration="31486000" />
     </task>
+    <task id="LOCAL-00001" summary="add restAPI">
+      <created>1543823745944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543823745944</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="40695000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="958" extended-state="0" />
+    <frame x="16" y="23" width="1680" height="956" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -1030,10 +1013,10 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4987775" visible="true" weight="0.25274727" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4987775" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3290993" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3290993" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32794458" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
@@ -1042,7 +1025,7 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.37182447" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.4212963" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -1071,7 +1054,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="master" />
-    <option name="LAST_COMMIT_MESSAGE" value="master" />
+    <MESSAGE value="add restAPI" />
+    <option name="LAST_COMMIT_MESSAGE" value="add restAPI" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/config/controller/MainApp.java" />
@@ -1115,16 +1099,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/domain/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1136,16 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1194,27 +1158,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/repos/UserRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/config/MvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/plugins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="207" lean-forward="true" selection-start-line="207" selection-end-line="207" />
         </state>
       </provider>
     </entry>
@@ -1232,51 +1179,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/RegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/mustache/profile/profile-content.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.mustache">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/mustache/head.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/ProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1287,49 +1193,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todo.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/factor.mustache">
+    <entry file="file://$PROJECT_DIR$/todo.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/mustache/body.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
+        <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/domain/Factor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/mustache/head.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/FactorController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/plugins.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="207" lean-forward="true" selection-start-line="207" selection-end-line="207" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/rest/RestAPI.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/mustache/profile/profile-content.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/repos/FactorRepo.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1338,6 +1259,76 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/repos/UserRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/ProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/RegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/domain/Factor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/analyticalsense/controller/FactorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/factor.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
         </state>
       </provider>
     </entry>
