@@ -58,10 +58,16 @@ public class FactorController  {
         System.out.println(newFactorName);
         System.out.println(newFactorQuery);
         if (newFactorName != "" && newFactorName != null) {
-            factorRepo.findById(id).get().setFactorName(newFactorName);
+            Factor old = factorRepo.findById(id).get();
+            factorRepo.deleteById(id);
+            old.setFactorName(newFactorName);
+            factorRepo.save(old);
         }
         if (newFactorQuery != "" && newFactorQuery != null) {
-            factorRepo.findById(id).get().setFactorQuery(newFactorQuery);
+            Factor old = factorRepo.findById(id).get();
+            factorRepo.deleteById(id);
+            old.setFactorQuery(newFactorQueryš);
+            factorRepo.save(old);
         }
 
 
@@ -82,16 +88,20 @@ public class FactorController  {
         return "factor";
     }
 
-    @PostMapping("/factor.testFactor")
+    @PostMapping("/result")
     public String testFactor(
             @RequestParam Long id,
             Map<String, Object> model) {
         //System.out.println(RestAPI.getXML("test.xml", factorRepo.findById(id).get().getFactorQuery().toString()));
+        String query = factorRepo.findById(id).get().getFactorQuery();
+        String result;
+        if (!(query == "" || query.isEmpty())) {
+            result = RestAPI.getXML("q.xml", query);
+        } else {
+            result = RestAPI.getXML("q.xml");
+        }
+        model.put("result1", result);
 
-        System.out.println(RestAPI.getXML("qwery.xml"));
-        Iterable<Factor> factors = factorRepo.findAll();
-        model.put("factors", factors);
-
-        return "factor";
+        return "result";
     }
 }

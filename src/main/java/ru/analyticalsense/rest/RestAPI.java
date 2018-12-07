@@ -34,7 +34,7 @@ public class RestAPI {
     }
 
     public static String getXML(String filename, String xQuery) {
-        String url = "http://localhost:8080/exist/rest/db/test/"+filename+"?_query="+xQuery;
+        String url = "http://localhost:8090/exist/rest/db/test/"+filename+"?_query="+xQuery;
         try {
             URL obj = new URL(url);
             HttpURLConnection connection = (HttpURLConnection) obj.openConnection();
@@ -61,7 +61,7 @@ public class RestAPI {
 
     public static boolean putXML(String filename, String XML, String user, String pass) {
         try {
-            String urlStr  =  "http://localhost:8080/exist/rest/db/test/"+filename;
+            String urlStr  =  "http://localhost:8090/exist/rest/db/test/"+filename;
             URL url = new URL(urlStr);
             HttpURLConnection httpCon = (HttpURLConnection) url.openConnection();
 
