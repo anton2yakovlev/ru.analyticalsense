@@ -61,12 +61,14 @@ public class FactorController  {
             Factor old = factorRepo.findById(id).get();
             factorRepo.deleteById(id);
             old.setFactorName(newFactorName);
+            old.setId(id);
             factorRepo.save(old);
         }
         if (newFactorQuery != "" && newFactorQuery != null) {
             Factor old = factorRepo.findById(id).get();
             factorRepo.deleteById(id);
-            old.setFactorQuery(newFactorQueryš);
+            old.setFactorQuery(newFactorQuery);
+            old.setId(id);
             factorRepo.save(old);
         }
 
