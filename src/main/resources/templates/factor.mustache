@@ -17,7 +17,7 @@
 
 <div>
     New factor: <br>
-    <form method="post">
+    <form method="post" action="factor.addFactor">
         <input type="text" name="factorName" placeholder="Factor name" />
         <input type="text" name="factorQuery" placeholder="Factor query"/>
         <button type="submit">Add</button>
@@ -29,8 +29,22 @@
 <div>
     {{#factors}}
     <div>
+        <b>ID:</b> <i>{{id}}</i><br>
         <b>Factor Name:</b> <i>{{factorName}}</i><br>
         <b>Factor query:</b> <i>{{factorQuery}}</i><br>
+        <hr>
+        <form method="post" action="factor.editFactor">
+            <p>New factor name: <input type="text" name="newFactorName"></p>
+            <p>New factor query: <input type="text" name="newFactorQuery"></p>
+            <p><button type="submit" name="id" value="{{id}}">Edit</button>
+        </form>
+        <form method="post" action="factor.testFactor">
+            <button type="submit" name="id" value="{{id}}">Test</button>
+        </form>
+        <form method="post" action="factor.delFactor">
+            <button type="submit" name="id" value="{{id}}">Delete</button>
+        </form>
+
     </div>
     <br>
     {{/factors}}
